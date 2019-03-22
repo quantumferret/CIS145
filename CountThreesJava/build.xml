@@ -1,0 +1,10 @@
+<project name = "Count3s">
+
+    <target name="clean">
+        <delete dir="build"/>
+    </target>
+
+    <target name="runCount3s" depends = "Count3s">
+        <mkdir dir="build/classes"/>
+        <javac srcdir="src" destdir="build/classes"/>
+    </target>
