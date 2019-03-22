@@ -14,7 +14,7 @@
     <property name="main-class" value="countthrees.CountThrees"/>
 
     <target name="clean">
-        <delete dir="{build.dir}"/>
+        <delete dir="${build.dir}"/>
     </target>
 
     <target name="Count3s">
