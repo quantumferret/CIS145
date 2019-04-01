@@ -12,6 +12,6 @@
   </servlet>
   <servlet-mapping>
       <servlet-name>atrib-servlet-countthrees</servlet-name>
-      <url-pattern>/atrib-servlet-countthrees</url-pattern>
+      <url-pattern>/</url-pattern>
   </servlet-mapping>
 </web-app>
